@@ -1,21 +1,28 @@
-
-# evaluacion
-
-A new Flutter project.
+# Evaluación Flutter
+Proyecto en Flutter para la evaluación.
 
 ## Getting Started
+Este proyecto es un punto de inicio para una aplicación Flutter.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
+Recursos útiles:
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Para más ayuda: [documentación oficial de Flutter](https://docs.flutter.dev/).
 
-# Projects_node
-Este es el paquete de proyectos en NODE.JS
+---
 
+# API Basic (Node.js)
+Este es el backend en Node.js con Express y MySQL.
+
+## Scripts
+- `npm start` → ejecuta la app
+- `npm run dev` → ejecuta con nodemon
+
+## Dependencias principales
+- express
+- cors
+- dotenv
+- bcrypt / bcryptjs
+- jsonwebtoken
+- morgan
