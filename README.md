@@ -8,7 +8,7 @@ Antes de empezar, instala lo siguiente en tu dispositivo:
 - Node.js (última versión estable): para ejecutar el backend.
 - Flutter SDK junto con Dart SDK: para compilar y correr el frontend.
 - Base de datos MySQL.
-- XAMPP
+- XAMPP.
 
 # Clonar repositorio 
 Abrir el Visual Studio Code e ingresar a la terminal (ctrl + ñ)
@@ -61,4 +61,4 @@ estas van a hacer las dependencias que vamos a necesitar:
 - morgan
 
 Como sugerencia, si hay problemas con las dependencias usamos el siguiente
-comando en nuestra carpeta de "api": npm instal (seguidamente del nombre de la dependencia).
+comando en nuestra carpeta de "api": npm install (seguidamente del nombre de la dependencia).
