@@ -17,7 +17,7 @@ git clone https://github.com/TU_USUARIO/TU_REPO.git
 cd TU_REPO
 
 # Base de datos
-En la carpeta my_project hay una carpeta llamada "db", ahi contiene toda la base de datos
+En la carpeta my_project hay una carpeta llamada "database", ahi contiene toda la base de datos
 en MySQL, simplemente copiar y pegar todo los datos, seguidamente ingresamos a XAMPP 
 y creamos una base de datos llamada "api-crud", e ingresamos los datos.
 
