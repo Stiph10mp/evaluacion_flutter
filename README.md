@@ -1,28 +1,64 @@
 # Evaluación Flutter
 Proyecto en Flutter para la evaluación.
 
-## Getting Started
-Este proyecto es un punto de inicio para una aplicación Flutter.
+# Requisitos previos
+Antes de empezar, instala lo siguiente en tu dispositivo:
+- Git: para clonar el repositorio.
+- Visual Studio Code (VS Code): editor de código recomendado.
+- Node.js (última versión estable): para ejecutar el backend.
+- Flutter SDK junto con Dart SDK: para compilar y correr el frontend.
+- Base de datos MySQL.
+- XAMPP
 
-Recursos útiles:
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Clonar repositorio 
+Abrir el Visual Studio Code e ingresar a la terminal (ctrl + ñ)
+el siguiente comando: 
+git clone https://github.com/TU_USUARIO/TU_REPO.git
+cd TU_REPO
 
-Para más ayuda: [documentación oficial de Flutter](https://docs.flutter.dev/).
+# Base de datos
+En la carpeta my_project hay una carpeta llamada "db", ahi contiene toda la base de datos
+en MySQL, simplemente copiar y pegar todo los datos, seguidamente ingresamos a XAMPP 
+y creamos una base de datos llamada "api-crud", e ingresamos los datos.
 
----
 
-# API Basic (Node.js)
-Este es el backend en Node.js con Express y MySQL.
+# Flutter
+Abrir la capeta (flutter) que esta dentro de la carpeta my_project en la terminal
+con el comando "cd", seguidamente ingrese este comando: "flutter pub get",
+esto sirve para descargar e instalar todas las dependencias de flutter/dart.
+Para que la aplicacion corra, despues de hacer todos los pasos, ingresamos el
+comando "flutter run" y seleccionamos la opcion de tu preferencias (La opcion de Chrome es la
+recomendada).
 
-## Scripts
-- `npm start` → ejecuta la app
-- `npm run dev` → ejecuta con nodemon
+# Node.js
+En otra ventana volvemos a la carpeta my_project e ingresamos a la carpeta "api",
+seguidamente descargamos las dependencias con el comando: "npm install".
+Dentro de la misma carpeta hay un archivo llamado .env, el cual debes seguir las
+siguientes variables:
+
+# Explicación de las variables
+- **SERVER_PORT** = puerto en el que se ejecutará el servidor (por defecto 3000).
+- **DB_NAME** = nombre de la base de datos que usará la API (api-crud).  
+- **DB_HOST** = dirección del servidor de base de datos (en este caso 127.0.0.1).  
+- **DB_USER** = usuario de la base de datos (ejemplo: root).  
+- **DB_PASSWORD** = contraseña del usuario de la base de datos.
+- **DB_PORT** = -  define el puerto de conexión de la base de datos (puerto de MySQL: '3306')
+- **DB_DIALECT** = indica el tipo de base de datos que se esta utilizando (en este caso: 'mysql')
+- **JWT_SECRET** = - es la clave secreta para firmar y validar tokens JWT en el sistema de autenticación
+  ("jwt_secret_key"). 
+ 
+Ponemos a correr el servidor con el siguiente comando: "npm run dev", seguidamente nos tiene
+que aparecer un puerto 3000.
+
 
 ## Dependencias principales
+estas van a hacer las dependencias que vamos a necesitar:
 - express
 - cors
 - dotenv
 - bcrypt / bcryptjs
 - jsonwebtoken
 - morgan
+
+Como sugerencia, si hay problemas con las dependencias usamos el siguiente
+comando en nuestra carpeta de "api": npm instal (seguidamente del nombre de la dependencia).
