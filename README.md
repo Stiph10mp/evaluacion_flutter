@@ -51,7 +51,7 @@ Ponemos a correr el servidor con el siguiente comando: "npm run dev", seguidamen
 que aparecer un puerto 3000.
 
 
-## Dependencias principales
+# Dependencias Node.js
 estas van a hacer las dependencias que vamos a necesitar:
 - express
 - cors
@@ -62,3 +62,16 @@ estas van a hacer las dependencias que vamos a necesitar:
 
 Como sugerencia, si hay problemas con las dependencias usamos el siguiente
 comando en nuestra carpeta de "api": npm install (seguidamente del nombre de la dependencia).
+
+# Dependencias flutter
+En el archivo pubspec.yaml en la carpeta de flutter, en la parte donde dice "dependencies", agregamos
+la dependencia "http: ^1.2.0", la dependencia tiene que quedar asi: 
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^5.4.0
+  cached_network_image: ^3.3.0
+
+acto seguido ingresamos en la terminal el comando: "flutter pub get".
+
