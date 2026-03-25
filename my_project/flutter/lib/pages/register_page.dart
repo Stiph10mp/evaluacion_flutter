@@ -6,7 +6,7 @@ class RegisterRolePage extends StatefulWidget {
   const RegisterRolePage({super.key, required this.token});
 
   @override
-  _RegisterRolePageState createState() => _RegisterRolePageState();
+  State<RegisterRolePage> createState() => _RegisterRolePageState();
 }
 
 class _RegisterRolePageState extends State<RegisterRolePage> {

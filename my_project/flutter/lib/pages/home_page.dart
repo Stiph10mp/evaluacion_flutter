@@ -146,7 +146,7 @@ class _HomePageState extends State<HomePage> {
                       ? const Center(child: Text("No hay roles registrados"))
                       : ListView.separated(
                           itemCount: roles.length,
-                          separatorBuilder: (_, __) => const Divider(),
+                          separatorBuilder: (_, _) => const Divider(),
                           itemBuilder: (context, index) {
                             final r = roles[index];
                             return Card(
