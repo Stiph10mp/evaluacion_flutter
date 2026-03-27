@@ -75,3 +75,7 @@ dependencies:
 
 acto seguido ingresamos en la terminal el comando: "flutter pub get".
 
+# Iniciar sesion
+user@email.com
+12345678
+
